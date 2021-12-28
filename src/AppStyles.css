@@ -1,0 +1,35 @@
+.remove-btn {
+    margin-right: 0.5rem;
+}
+
+.post-enter {
+    transform: translateX(-350px);
+}
+.post-enter-active {
+    transform: translateX(0px);
+    transition: opacity 500ms ease-in;
+}
+.post-exit {
+    opacity: 1;
+}
+.post-exit-active {
+    transform: translateX(-350px);
+    transition: opacity 500ms ease-in;
+}
+.page__current{
+    border: 2px solid black !important;
+    color: black !important;
+}
+.page{
+
+}
+.linkHref{
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+.linkHref:hover{
+    opacity: 0.3;
+    padding-bottom: 2px;
+    border-bottom: 2px solid black
+ }
